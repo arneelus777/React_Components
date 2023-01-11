@@ -29,7 +29,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         'hover:bg-[#B71C1C] bg-[#D32F2F]': color === 'error',
         'hover:bg-[#00B8D4] bg-[#0DCAF0]': color === 'info',
         'hover:bg-[#FFB300] bg-[#FFC107]': color === 'warning',
-        'hover:brightness-100 text-[#BDBDBD] bg-[#EEEEEE] cursor-auto pointer-events-auto':
+        'hover:bg-[#EEEEEE] text-[#BDBDBD] bg-[#EEEEEE] cursor-auto pointer-events-auto':
           disabled,
         'py-1 px-2.5 text-[0.813rem]': size === 'small',
         'py-1.5 px-4 text-sm': size === 'medium',
